@@ -176,10 +176,19 @@ bonous part
     width: 437px;
     height: 297px;
 }
+.portal img:hover .hover{
+   display: block;
+}
+.portal h3{
+ display: none;
+ position: relative;
+ transition: 1s;
+}
 .news .comment{
     width: 337px;
     height: 550px;
     margin-left: 20px;
+   
 }
 
 
@@ -270,6 +279,9 @@ optional {
     width: 100%;
     height: 100%;
 }
+bonous{
+    display: none;
+}
 footer{
     margin: 0%;
     padding: 0%;
@@ -280,4 +292,5 @@ footer{
 footer center img{
     width: 100%;
 }
+
 }
