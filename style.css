@@ -3,6 +3,8 @@
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
+    Width: 1440px;
+    Height: 3750px;
 }
 
 /* ------------------
@@ -12,8 +14,10 @@ top header part
 header{
     background-color: #2D25A0;
     height: 677px;
-    width: 100%;
-    display: flex;
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 153px 141px 86px 156px;
 }
 
 .banner-txt .copa{
@@ -24,7 +28,7 @@ header{
     height: 230px;
     font-size: 64px;
     font-weight: 700;
-    padding-bottom: 27px;
+    /* padding-bottom: 27px; */
 }
 
 .banner-txt .watch{
@@ -47,11 +51,23 @@ header{
 /*--------------------
  player part 
 ---------------------- */
+main{
+    padding: 70px 210px 27px 180px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
 
 .player{
     Width: 330px;
     Height: 474px;
-    padding: 15px;
+
+   
+    background-color: rgb(255, 255, 255);
+   
+    box-shadow: 1px 1px 7px lightgray;
 }
 .player img{
     width: 300px;
@@ -62,7 +78,12 @@ height: 256px;
     width: 300px;
     height: 154px;
 }
-
+.info .name{
+    font-size: 28px;
+}
+.info .about{
+    font-size: 16px;
+}
 
 /* --------------
  footer part    
