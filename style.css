@@ -155,6 +155,32 @@ optional{
 .highlight i{
     margin-left: 8px;
 }
+/* --------------------
+bonous part  
+---------------------*/
+/* bonous{
+    
+} */
+.news{
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+.news .portal{
+    margin: 0%;
+    padding: 10px;
+    width: 437px;
+}
+.portal img{
+    width: 437px;
+    height: 297px;
+}
+.news .comment{
+    width: 337px;
+    height: 550px;
+    margin-left: 20px;
+}
 
 
 /* --------------
@@ -164,7 +190,7 @@ optional{
 footer{
     width: 483.87px;
     height: 213px;
-    margin-left: 475px;
+    margin-left: 555px;
 }
 footer center img{
     width: 483.87px;
@@ -209,7 +235,49 @@ media query
       }
 
 
-optional , main , footer{
-    display: none;
+.players{
+    margin: 0%;
+    padding: 0%;
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+optional {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100%;
+        /* padding: 10px; */
+}
+.highlight{
+    padding-top: 20px;
+    width: 100%;
+    padding: 10px;
+
+}
+.highlight .details{
+    width: 100%;
+    height: 100%;
+}
+.highlight .details a{
+    width: 100%;
+}
+.image img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+footer center img{
+    width: 100%;
 }
 }
